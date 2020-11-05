@@ -7,7 +7,6 @@ return function()
 	local module = game:GetService("ReplicatedStorage"):WaitForChild("Roads")
 	local Roads = require(module)
 	local Wait = require(module:WaitForChild("Wait"))
-	local Delay = require(module:WaitForChild("Delay"))
 	local Async = require(module:WaitForChild("Async"))
 	local Await = require(module:WaitForChild("Await"))
 	local Callback = require(module:WaitForChild("Callback"))
@@ -27,10 +26,6 @@ return function()
 
 		it("should expose the Wait function", function()
 			expect(Roads.Wait).to.equal(Wait)
-		end)
-
-		it("should expose the Delay function", function()
-			expect(Roads.Delay).to.equal(Delay)
 		end)
 
 		it("should expose the Async function", function()
