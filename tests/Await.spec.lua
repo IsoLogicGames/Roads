@@ -31,7 +31,9 @@ return function()
 				"invalid arugment #1 to 'Await' (task expected, got table")
 			expect(function() Await(function() end) end).to.throw(
 				"invalid arugment #1 to 'Await' (task expected, got function")
-			expect(function() Await(Async(function() end)) end).never.to.throw()
+			expect(function()
+				Await(Async(function() end))
+			end).never.to.throw()
 		end)
 
 		it("should sync the current thread with the task", function()

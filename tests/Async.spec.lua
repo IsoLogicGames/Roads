@@ -14,13 +14,22 @@ return function()
 		end)
 
 		it("should only accept a function", function()
-			expect(function() Async() end).to.throw("invalid arugment #1 to 'Async' (function expected, got nil")
-			expect(function() Async(false) end).to.throw("invalid arugment #1 to 'Async' (function expected, got boolean")
-			expect(function() Async(0) end).to.throw("invalid arugment #1 to 'Async' (function expected, got number")
-			expect(function() Async("") end).to.throw("invalid arugment #1 to 'Async' (function expected, got string")
-			expect(function() Async(Instance.new("Folder")) end).to.throw("invalid arugment #1 to 'Async' (function expected, got userdata")
-			expect(function() Async(coroutine.create(function() end)) end).to.throw("invalid arugment #1 to 'Async' (function expected, got thread")
-			expect(function() Async({}) end).to.throw("invalid arugment #1 to 'Async' (function expected, got table")
+			expect(function() Async() end).to.throw(
+				"invalid arugment #1 to 'Async' (function expected, got nil")
+			expect(function() Async(false) end).to.throw(
+				"invalid arugment #1 to 'Async' (function expected, got boolean")
+			expect(function() Async(0) end).to.throw(
+				"invalid arugment #1 to 'Async' (function expected, got number")
+			expect(function() Async("") end).to.throw(
+				"invalid arugment #1 to 'Async' (function expected, got string")
+			expect(function() Async(Instance.new("Folder")) end).to.throw(
+				"invalid arugment #1 to 'Async' (function expected, got userdata")
+			expect(function() Async(
+				coroutine.create(function() end))
+			end).to.throw(
+				"invalid arugment #1 to 'Async' (function expected, got thread")
+			expect(function() Async({}) end).to.throw(
+				"invalid arugment #1 to 'Async' (function expected, got table")
 			expect(function() Async(function() end) end).never.to.throw()
 		end)
 
@@ -31,9 +40,9 @@ return function()
 
 		it("should not yield the calling thread", function()
 			local activated = false
-			local async = Async(function() activated = true end)()
+			local task = Async(function() activated = true end)()
 			expect(activated).to.equal(false)
-			Await(async)
+			Await(task)
 			expect(activated).to.equal(true)
 		end)
 
