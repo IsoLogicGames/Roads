@@ -78,7 +78,7 @@ jobs:
     - name: Install Roblox
       uses: OrbitalOwen/roblox-win-installer-action@1.0
       with:
-        cookie: ${{ env.ROBLOSECURITY }}
+        cookie: ${{ secrets.ROBLOSECURITY }}
         token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build
