@@ -13,7 +13,6 @@ Be sure to:
 * Check that an issue hasn't already been submitted about it. If you find one, please provide any additional information there.
 * Provide a clear descriptive title and a detailed description of the problem
 * Explain how and when the problem occurs and what steps to take to reproduce the problem
-* Tag your issue appropriately to help us find and address it correctly
 
 ## Submitting Changes
 
@@ -27,7 +26,6 @@ Thank you!
 ### Did you intend to add a new feature or change an existing one?
 Great!
 * Create an [issue](https://github.com/LastTalon/Roads/issues) suggesting the feature. We love when people contribute, but we hate for their effort to be wasted. Discussing the issue ahead of time can ensure the code you write will be accpeted.
-* Tag the issue appropriately
 * Fork the project, check our [style guide](#style-guide), and start writing
 * Consider opening a draft pull request against `master` right away. This is the best way to discuss the code as you write it.
 * When you're done, be sure to open a pull request. Include the issue number for the associated issue.

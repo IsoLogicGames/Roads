@@ -1,8 +1,7 @@
 ## Proposed changes
 A clear and concise description of what your changes are. Explain to
 maintainers why we should accept your solution. Be sure to adhere to our
-[contribution guidelines](https://github.com/LastTalon/Roads/blob/master/CONTRIBUTING.md)
-and tag your pull request appropriately.
+[contribution guidelines](https://github.com/LastTalon/Roads/blob/master/CONTRIBUTING.md).
 
 ## Related issues
 Explain how this pull request relates to any relevant
