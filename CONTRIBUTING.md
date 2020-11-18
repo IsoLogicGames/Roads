@@ -39,8 +39,8 @@ We'd love to see it! We're happy you want to contribute, but please be patient a
 	* We will let you know we can't add the feature (we're sorry). It may need to be changed first, or may be incompatible with other design goals.
 * In the future, please start by opening discussion about the suggestion
 
-### Did you fix something purely cosmetic?
-We appreciate your enthusiasm, however cosmetic patches are unlikely to be approved. We do care about code quality (please check our [style guide](#style-guide)), but the cost of reviewing it outweighs the benefit of the change.
+### Did you fix something purely cosmetic in the codebase?
+We appreciate your enthusiasm, however cosmetic code patches are unlikely to be approved. We do care about code quality (please check our [style guide](#style-guide)), but the cost of reviewing it outweighs the benefit of the change.
 
 ## Style Guide
 If you're contributing, please follow our style guide. It maintains the quality of our code and helps us work together.
