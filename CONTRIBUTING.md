@@ -46,7 +46,7 @@ Great!
 We'd love to see it! We're happy you want to contribute, but please be patient
 and understanding with us.
 * Follow the the instructions outlined in the
-	[previous section](#did-you-already-write-a-new-feature-or-change-an-existing-one).
+	[previous section](#did-you-intend-to-add-a-new-feature-or-change-an-existing-one).
 	There may be additional work to do.
 * Please await feedback on your suggestion and pull request. If you notice any
 	immediate issues you can resolve before we address them (such as
