@@ -11,18 +11,24 @@
 </div>
 <br>
 
-**Roads** is is a free software *Roblox* concurrency library.
+> :information_source: This project is not currently in development and has no
+> current plans for development.
+
+**Roads** is is a free software _Roblox_ concurrency library.
 
 ## Usage
+
 Roads uses [Rojo](https://rojo.space/) as a bridge between the filesystem and
 Roblox Studio. If you want to contribute or use Roads for development, install
 both to get started. The project contains a `default.project.json` that can be
 used by Rojo to generate or sync with a Roblox save file.
 
 ## Documentation
+
 The only documentation is currently in the source. This will be changing soon.
 
 ## Contributing
+
 Contributions are welcome, please make a pull request!
 
 Be sure to set up [Rojo](https://rojo.space/) to get started. Check out our
@@ -31,5 +37,6 @@ Be sure to set up [Rojo](https://rojo.space/) to get started. Check out our
 Please read our [code of conduct](CODE_OF_CONDUCT.md) when getting involved.
 
 ## License
+
 Roads is free software available under the MIT license. See the
 [license](LICENSE.md) for details.
